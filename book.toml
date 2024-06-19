@@ -1,6 +1,9 @@
 [book]
-authors = ["Myster7494"]
-language = "en"
+authors = ["TYIC", "Myster7494"]
+language = "zh-Hant-TW"
 multilingual = false
 src = "src"
 title = "TYIC textbook"
+
+[preprocessor.katex]
+after = ["links"]

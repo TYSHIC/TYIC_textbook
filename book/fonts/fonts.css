@@ -1,0 +1,15 @@
+@font-face {
+    font-family: custom-font;
+    src: url(NotoSansTC-VariableFont_wght.ttf) format("opentype");
+    unicode-range: U+4E00-9FFF;
+}
+
+@font-face {
+    font-family: custom-font;
+    src: url(JetBrainsMono[wght].ttf) format("opentype");
+    unicode-range: U+00-024F
+}
+
+body {
+    font-family: custom-font, sans-serif, serif;
+}

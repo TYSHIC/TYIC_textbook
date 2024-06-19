@@ -1,1 +1,9 @@
-# Chapter 1
+# 初嚐C語言
+第一個C語言程式
+```c
+#include<stdio.h>
+
+int main(void){
+    printf("Hello World!");
+}
+```
