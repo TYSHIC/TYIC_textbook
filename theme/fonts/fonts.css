@@ -6,7 +6,7 @@
 
 @font-face {
     font-family: custom-font;
-    src: url(JetBrainsMono[wght].ttf) format("opentype");
+    src: url(JetBrainsMono_wght.ttf) format("opentype");
     unicode-range: U+00-024F
 }
 
