@@ -8,6 +8,10 @@ title = "TYIC textbook"
 [build]
 use-default-preprocessors = false
 
+[output.html]
+additional-js = ["theme/fzf.umd.js", "theme/elasticlunr.js","theme/pagetoc.js"]
+additional-css = ["theme/pagetoc.css"]
+
 [preprocessor.links]
 
 [preprocessor.katex]
