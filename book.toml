@@ -5,5 +5,10 @@ multilingual = false
 src = "src"
 title = "TYIC textbook"
 
+[build]
+use-default-preprocessors = false
+
+[preprocessor.links]
+
 [preprocessor.katex]
 after = ["links"]
