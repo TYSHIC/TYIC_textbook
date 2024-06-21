@@ -2,4 +2,6 @@
 
 這本書是由 TYIC桃高資訊社 所編輯的書，用於資訊社教學之目的。
 
-本書主要內容為 C語言 與 Java語言。
+Instagram: @tyic_4th
+
+![TYIC_logo](./images/TYIC_logo.jpg)
