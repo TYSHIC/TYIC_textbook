@@ -39,7 +39,7 @@ cout << "Hello World!" << endl;
 
 `cout`是[標準輸出流](../../c/advanced/stream.md)，用來在主控台中輸出文字。
 
-`<<`是[串接運算子](../../c/basic/operator.md)，使內容流入或流出串流。
+`<<`是[串接運算子](../../c/basic/operator.md)，使資料流入或流出串流。
 
 `"Hello World!"`是字串常數，在這裡被串接運算子流入標準輸出流。
 
