@@ -9,7 +9,11 @@ int main(){
 }
 ```
 
-在C/C++中，每個陳述句(statement)都必須以分號「;」結尾。
+```
+Hello World!
+```
+
+在C/C++中，每個陳述句(statement)都必須以分號`;`結尾。
 
 上面的程式碼可以在主控台(console)中輸出`Hello World!`，
 讓我們從第一行開始依序看起：
@@ -20,8 +24,8 @@ int main(){
 #include<stdio.h>
 ```
 
-在C/C++中，以「#」開頭的程式碼為[前置處理器](../advanced/preprocessor.md)，
-而`include`則是前置處理器的一種，用來引入[標頭檔](../advanced/header_namespace)。
+在C/C++中，以`#`開頭的程式碼為[前置處理器](../advanced/preprocessor.md)，
+而`include`則是前置處理器的一種，用來引入[標頭檔](../advanced/header)。
 
 因為`printf`這個[函式](./function.md)定義在`stdio.h`這個標頭檔中，
 所以必須引入`stdio.h`這個標頭檔才可以使用`printf`這個函式。
@@ -43,7 +47,7 @@ int main(){
 
 `()`是用來放[參數](./function.md)的地方，在這個函式中是空的，表示這個函式沒有參數。
 
-`{}`是一個[區塊](./control_flow.md)，用來包裹要執行的程式碼。
+`{}`是一個區塊(block)，用來包裹要執行的程式碼。
 
 ### 第4行
 
@@ -53,7 +57,7 @@ printf("Hello World!");
 
 `printf`是一個函式，用來在主控台中[輸出](./input_output.md)文字。
 
-`"Hello World!"`是一個[字串](./string.md)[常數](./variable_constant.md)，
+`"Hello World!"`是一個[字串](./char_array.md)[常數](./variable_constant.md)，
 作為[引數](./function.md)傳給`printf`函式，讓其輸出`Hello World!`在主控台中。
 
 ### 第5行

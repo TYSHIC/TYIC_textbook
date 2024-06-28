@@ -9,8 +9,8 @@ title = "TYIC textbook"
 use-default-preprocessors = false
 
 [output.html]
-additional-js = ["theme/fzf.umd.js", "theme/elasticlunr.js","theme/pagetoc.js"]
-additional-css = ["theme/pagetoc.css"]
+additional-js = ["extra/fzf.umd.js", "extra/elasticlunr.js", "extra/pagetoc.js"]
+additional-css = ["extra/pagetoc.css"]
 
 [preprocessor.links]
 
